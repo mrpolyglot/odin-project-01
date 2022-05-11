@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+html,body{
+margin: 0;
+height: 100%;
+font-family: Roboto, sans-serif;
+display: flex ;
+flex-direction: column;
+}
+
+.header-container{
+background-color: #1f2937;
+display: flex;
+justify-content: space-between;
+color: white;
+
+}
+
+.header-text{
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.header-link{
+display: flex;
+margin-right: 50px;
+align-items: center;
+gap: 10px;
+font-size: 12px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.863);
+}
+
+.background-container{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 30px 200px;
+    gap: 50px;
+    flex: 1;
+
+    margin-bottom: 20px;
+}
+.background-sub-01{
+    flex: 1;
+}
+.background-sub-02{
+    flex: 1;
+}
+button{
+background-color: #3b82f6;
+color: white;
+padding: 5px 15px;
+}
+
+.header-text-01{
+    text-align: center;
+}
+
+.box-container{
+    justify-content: space-evenly;
+    display: flex;
+    gap: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+    flex: 1;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.box-subcontainer{
+    border: 3px solid #3b82f6;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.quote-container{
+    background-color: #e5e7eb;
+    padding: 80px 400px;
+    flex: 1;
+}
+.text-right{
+    text-align: right;
+}
+
+
+.action-button{
+    background-color: #3b82f6;
+    margin: 40px 200px;
+    border-radius: 10px;
+    padding: 20px 100px;
+    display: flex;
+    color: white;
+    flex: 1;
+    max-height: 100px;
+}
+.action-button-01{
+    flex: 2;
+}
+.action-button-02{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-01{
+border: 2px solid white;
+border-radius: 10px;
+padding: 5px 20px;
+}
+
+footer{
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+}
